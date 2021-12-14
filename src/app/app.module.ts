@@ -37,6 +37,11 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatRadioModule} from '@angular/material/radio'
 import { BoredComponent } from './bored/bored.component';
 
+import { DsAdditionComponent } from './ds-addition/ds-addition.component';
+import { MatSlideToggleModule} from '@angular/material/slide-toggle';
+
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -48,6 +53,7 @@ import { BoredComponent } from './bored/bored.component';
     , JvSlackNTellComponent
     , PnFizzBuzzComponent, GbatistaAddComponent
     , PnFizzBuzzComponent
+    , BoredComponent, DsAdditionComponent
     , BoredComponent
     , TjsAdditionComponent
   ],
@@ -67,6 +73,7 @@ import { BoredComponent } from './bored/bored.component';
     , MatSelectModule
     , MatMenuModule
     , MatRadioModule
+    , MatSlideToggleModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
